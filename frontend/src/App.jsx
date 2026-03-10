@@ -11,7 +11,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import { useScrollReveal } from './hooks/useScrollReveal'
 
-const API = 'http://localhost:5000/api'
+const API = 'https://ayushi-portfolio-backend.onrender.com/api'
 
 export default function App() {
   const [projects, setProjects] = useState([])
