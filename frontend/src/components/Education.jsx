@@ -7,13 +7,27 @@ export default function Education() {
         <div className="edu-card-new">
           <div className="edu-school">SRM Institute of<br />Science &amp; Technology</div>
           <div className="edu-deg">Bachelor of Technology — Cloud Computing</div>
-          <div className="edu-yr">2024 — 2028</div>
+          <div className="edu-yr">2024 — 2028 · CGPA: 8.00</div>
         </div>
         <div className="vol-card">
-          <div className="vol-title">🤝 NSS — National Service Scheme Member</div>
+          <div className="vol-title">🤝 NSS — Graphic Leader</div>
           <div className="vol-desc">
-            Participated in social service and community development programs,
-            building leadership, teamwork, and communication skills through hands-on volunteering.
+            Led a team of 20+ volunteers managing design initiatives and coordinating
+            5+ community engagement drives, impacting 500+ community members through social programs.
+          </div>
+        </div>
+        <div className="vol-card" style={{marginTop:'1rem'}}>
+          <div className="vol-title">💻 GirlScript Summer of Code (GSSoC) 2026</div>
+          <div className="vol-desc">
+            Open Source Contributor — Contributed to open-source projects by solving issues,
+            improving UI/UX, and collaborating with developers using Git and GitHub.
+          </div>
+        </div>
+        <div className="vol-card" style={{marginTop:'1rem'}}>
+          <div className="vol-title">🏆 National Level Hackathon Participant</div>
+          <div className="vol-desc">
+            Competed in 5+ national hackathons delivering production-ready full-stack AI,
+            blockchain, and 3D applications within 24-48 hour deadlines.
           </div>
         </div>
       </div>
@@ -23,8 +37,8 @@ export default function Education() {
 
         <div className="cert-card-new">
           <div className="cert-icon">❄️</div>
-          <div className="cert-name">SnowPro Associate: Platform</div>
-          <div className="cert-sub">Issued by Snowflake · ID: S139753-260306-SOL</div>
+          <div className="cert-name">Snowflake SnowPro Core Certification</div>
+          <div className="cert-sub">Issued by Snowflake · Cloud Data Platform</div>
           <div className="cert-dates">
             <div className="cert-date-item">
               <div className="cdn">Issued</div><div className="cdv">Mar 2026</div>

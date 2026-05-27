@@ -2,7 +2,7 @@ export default function Hero({ projects }) {
   return (
     <section className="hero" id="about">
       <div className="hero-divider"></div>
-      <div className="hero-vertical">Azamgarh · Uttar Pradesh · India</div>
+      <div className="hero-vertical">Ghaziabad · Uttar Pradesh · India</div>
       <div className="hero-left">
         <div className="hero-eyebrow">
           <div className="hero-eyebrow-line"></div>
@@ -44,16 +44,16 @@ export default function Hero({ projects }) {
         </div>
         <div className="hero-stats-float">
           <div className="hstat">
-            <div className="hstat-n">{projects.length || 4}</div>
+            <div className="hstat-n">{projects.length || 5}</div>
             <div className="hstat-l">Projects</div>
           </div>
           <div className="hstat">
-            <div className="hstat-n">8+</div>
+            <div className="hstat-n">15+</div>
             <div className="hstat-l">Technologies</div>
           </div>
           <div className="hstat">
             <div className="hstat-n">2</div>
-            <div className="hstat-l">Certification</div>
+            <div className="hstat-l">Certifications</div>
           </div>
         </div>
       </div>

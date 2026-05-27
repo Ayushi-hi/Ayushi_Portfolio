@@ -1,9 +1,9 @@
 const skills = [
-  { name: 'Languages', pills: ['C','C++','Python','Java','JavaScript'] },
-  { name: 'Frontend',  pills: ['HTML','CSS','React','React Native'] },
-  { name: 'Backend',   pills: ['Node.js','Convex','Spring Boot'] },
-  { name: 'Design',    pills: ['Figma','Canva','UI/UX'] },
-  { name: 'Tools',     pills: ['Git','GitHub','VS Code'] },
+  { name: 'Languages', pills: ['Python', 'Java', 'C++', 'JavaScript (ES6+)', 'TypeScript', 'SQL'] },
+  { name: 'Frontend',  pills: ['React.js', 'HTML5', 'CSS3', 'Tailwind CSS', 'Three.js'] },
+  { name: 'Backend',   pills: ['Node.js', 'Express.js', 'REST APIs', 'Spring Boot'] },
+  { name: 'Cloud & DB', pills: ['MongoDB', 'SQL', 'Google Cloud Platform', 'Oracle Cloud'] },
+  { name: 'Tools',     pills: ['Git', 'GitHub', 'Docker', 'VS Code', 'Postman', 'Figma'] },
 ]
 
 export default function About() {
@@ -15,8 +15,8 @@ export default function About() {
           <h2 className="s-title">Crafting<br /><em>Digital</em><br />Experiences</h2>
           <p className="about-body">
             A <strong>Cloud Computing student</strong> at SRMIST with a passion for building
-            things that work beautifully. From full-stack pet adoption platforms to blockchain
-            decentralized solutions — I bring curiosity and care to every line of code.
+            things that work beautifully. From AI-powered skincare analyzers to blockchain
+            voting platforms — I bring curiosity and care to every line of code.
           </p>
         </div>
         <div className="about-skills-col reveal">
