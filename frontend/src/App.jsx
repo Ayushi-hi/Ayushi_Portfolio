@@ -11,7 +11,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import { useScrollReveal } from './hooks/useScrollReveal'
 
-const API = 'https://portfolio-d839.onrender.com/api'
+const API = 'https://ayushi-portfolio-backend.onrender.com/'
 export default function App() {
   const [projects, setProjects] = useState([])
   const [toast, setToast] = useState({ show: false, msg: '', type: 'success' })
