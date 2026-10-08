@@ -7,29 +7,27 @@ export default function Education() {
         <div className="edu-card-new">
           <div className="edu-school">SRM Institute of<br />Science &amp; Technology</div>
           <div className="edu-deg">Bachelor of Technology — Cloud Computing</div>
-          <div className="edu-yr">2024 — 2028 · CGPA: 8.23</div>
+          <div className="edu-yr">2024 — 2028 · CGPA: 8.00</div>
         </div>
         <div className="vol-card">
-          <div className="vol-title">🤝 NSS — Graphic Leader · 2024–Present</div>
+          <div className="vol-title">🤝 NSS — Graphic Leader</div>
           <div className="vol-desc">
-            Led 20+ volunteers across 5+ community initiatives, handling planning, task allocation
-            and scheduling for events with 500+ participants. Maintained event documentation,
-            rosters and post-event reports.
+            Led a team of 20+ volunteers managing design initiatives and coordinating
+            5+ community engagement drives, impacting 500+ community members through social programs.
           </div>
         </div>
         <div className="vol-card" style={{marginTop:'1rem'}}>
           <div className="vol-title">💻 GirlScript Summer of Code (GSSoC) 2026</div>
           <div className="vol-desc">
-            Open Source Contributor — Resolved issues and submitted pull requests using Git and GitHub,
-            incorporating maintainer feedback and improving UI/UX and documentation.
+            Open Source Contributor — Contributed to open-source projects by solving issues,
+            improving UI/UX, and collaborating with developers using Git and GitHub.
           </div>
         </div>
         <div className="vol-card" style={{marginTop:'1rem'}}>
-          <div className="vol-title">🏆 National Level Hackathon Participant · 2024–2026</div>
+          <div className="vol-title">🏆 National Level Hackathon Participant</div>
           <div className="vol-desc">
-            Built and deployed 5+ full-stack applications across multiple platforms, delivering
-            functional prototypes within 24–48 hours and debugging frontend-backend integration
-            under time pressure.
+            Competed in 5+ national hackathons delivering production-ready full-stack AI,
+            blockchain, and 3D applications within 24-48 hour deadlines.
           </div>
         </div>
       </div>
@@ -63,12 +61,6 @@ export default function Education() {
               <div className="cdn">Valid Until</div><div className="cdv">Dec 2027</div>
             </div>
           </div>
-        </div>
-
-        <div className="cert-card-new" style={{marginTop:'1.5rem'}}>
-          <div className="cert-icon">🏅</div>
-          <div className="cert-name">AWS — Cloud Foundations</div>
-          <div className="cert-sub">Issued by Amazon Web Services</div>
         </div>
       </div>
     </section>

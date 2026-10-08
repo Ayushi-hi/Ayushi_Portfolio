@@ -18,8 +18,8 @@ export default function Hero({ projects }) {
           <div className="hero-role-text">SRM Institute of Science &amp; Technology</div>
         </div>
         <p className="hero-desc">
-          Shipping <strong>end-to-end web &amp; mobile products</strong> with React Native, Next.js,
-          TypeScript and REST APIs, including LLM-backed features. Building working products in 24–48 hour hackathons.
+          Building <strong>intuitive web &amp; mobile experiences</strong> with React,
+          Node.js, and cloud technologies. Driven by the belief that great software changes lives.
         </p>
         <div className="hero-cta-group">
           <a href="#contact" className="btn btn-gold"><span>Say Hello</span><span>→</span></a>
@@ -44,15 +44,15 @@ export default function Hero({ projects }) {
         </div>
         <div className="hero-stats-float">
           <div className="hstat">
-            <div className="hstat-n">{projects.length || '5+'}</div>
+            <div className="hstat-n">{projects.length || 5}</div>
             <div className="hstat-l">Projects</div>
           </div>
           <div className="hstat">
-            <div className="hstat-n">25+</div>
+            <div className="hstat-n">15+</div>
             <div className="hstat-l">Technologies</div>
           </div>
           <div className="hstat">
-            <div className="hstat-n">3</div>
+            <div className="hstat-n">2</div>
             <div className="hstat-l">Certifications</div>
           </div>
         </div>

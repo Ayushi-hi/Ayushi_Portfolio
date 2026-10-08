@@ -1,4 +1,4 @@
-const techs = ['React','Next.js','React Native','TypeScript','Node.js','FastAPI','Spring Boot','Python','Firebase','MongoDB','Docker','LLM Apps','Cloud Computing']
+const techs = ['React','Node.js','React Native','Spring Boot','Blockchain','Cloud Computing','Figma','JavaScript','Python','Oracle Cloud']
 
 export default function Marquee() {
   const items = [...techs, ...techs]

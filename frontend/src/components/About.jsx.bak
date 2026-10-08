@@ -1,9 +1,9 @@
 const skills = [
-  { name: 'Languages', pills: ['TypeScript', 'JavaScript (ES6+)', 'Python', 'Java', 'C++', 'SQL'] },
-  { name: 'Frontend',  pills: ['React Native', 'React.js', 'Next.js', 'HTML5', 'CSS3', 'Tailwind CSS'] },
-  { name: 'Backend',   pills: ['Node.js', 'Express.js', 'FastAPI', 'Spring Boot', 'REST APIs'] },
-  { name: 'Data & Cloud', pills: ['Firebase', 'MySQL', 'MongoDB', 'SQLite', 'ChromaDB', 'Docker'] },
-  { name: 'Tools',     pills: ['Git', 'GitHub', 'Postman', 'Linux', 'Vite', 'VS Code'] },
+  { name: 'Languages', pills: ['Python', 'Java', 'C++', 'JavaScript (ES6+)', 'TypeScript', 'SQL'] },
+  { name: 'Frontend',  pills: ['React.js', 'HTML5', 'CSS3', 'Tailwind CSS', 'Three.js'] },
+  { name: 'Backend',   pills: ['Node.js', 'Express.js', 'REST APIs', 'Spring Boot'] },
+  { name: 'Cloud & DB', pills: ['MongoDB', 'SQL', 'Google Cloud Platform', 'Oracle Cloud'] },
+  { name: 'Tools',     pills: ['Git', 'GitHub', 'Docker', 'VS Code', 'Postman', 'Figma'] },
 ]
 
 export default function About() {
@@ -14,10 +14,9 @@ export default function About() {
           <div className="s-label"><div className="s-label-line"></div> About Me</div>
           <h2 className="s-title">Crafting<br /><em>Digital</em><br />Experiences</h2>
           <p className="about-body">
-            A <strong>Cloud Computing student</strong> at SRMIST and full-stack developer.
-            From AI-assisted chest X-ray analysis to real-time mobile apps and a local LLM
-            developer assistant — I debug integration issues under pressure and deliver
-            working products, even in 24–48 hour hackathons.
+            A <strong>Cloud Computing student</strong> at SRMIST with a passion for building
+            things that work beautifully. From AI-powered skincare analyzers to blockchain
+            voting platforms — I bring curiosity and care to every line of code.
           </p>
         </div>
         <div className="about-skills-col reveal">

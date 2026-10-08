@@ -1,40 +1,33 @@
-// TODO: replace the githubUrl values below with each repo's real link, and add liveUrl where you have a demo.
 const fallbackFeatured = {
-  title: 'KINDSIGHT', emoji: '🩻',
-  description: 'AI-assisted chest X-ray analysis web app with a Next.js frontend, FastAPI REST backend and Docker deployment. Includes authentication, report generation, DICOM image support and an LLM-powered conversational chat backed by ChromaDB retrieval.',
-  techStack: ['Python', 'FastAPI', 'Next.js', 'MongoDB', 'ChromaDB', 'REST APIs', 'Docker'],
-  githubUrl: 'https://github.com/Ayushi-hi',
-  liveUrl: ''
+  title: 'DERMIQUE', emoji: '🧴',
+  description: 'AI-powered skincare analyzer achieving 92% detection accuracy for harmful cosmetic compounds. Full-stack web app with intelligent caching reducing API response time to sub-second latency.',
+  techStack: ['React.js', 'Node.js', 'MongoDB', 'AI', 'REST APIs'],
+  githubUrl: 'https://github.com/Ayushi-hi/dermique',
+  liveUrl: 'https://dermique.vercel.app/'
 }
 const fallbackOthers = [
   {
-    title: 'VibeShare', emoji: '📱',
-    description: 'Real-time social app for Gen-Z friend groups, built cross-platform with React Native. Features group chat, photo sharing, live friend location and synchronized music listening, with Firebase keeping chat, location and playback state in sync across devices.',
-    techStack: ['React Native', 'Firebase'],
-    githubUrl: 'https://github.com/Ayushi-hi',
-    liveUrl: ''
+    title: 'VoteChain India', emoji: '🗳️',
+    description: 'Secure blockchain voting system built on Solana for immutable, tamper-proof vote recording. Integrated Aadhaar-based authentication with cryptographic signing ensuring 100% transaction integrity.',
+    techStack: ['Solana', 'React.js', 'Web3.js', 'Node.js', 'Smart Contracts'],
+    githubUrl: 'https://github.com/Ayushi-hi/Digital-Votechain-India',
+    liveUrl: 'https://digital-votechain-india.vercel.app/'
   },
   {
-    title: 'ORBIT', emoji: '🛰️',
-    description: 'Local AI developer assistant for the command line. Integrates an LLM API with streaming responses and persistent SQLite storage, with modular workflows for file operations, Git status/diff analysis and notes.',
-    techStack: ['Python', 'OpenRouter API', 'SQLite', 'CLI', 'Git'],
-    githubUrl: 'https://github.com/Ayushi-hi',
-    liveUrl: ''
+    title: 'OS-Mon Academy', emoji: '🎮',
+    description: 'Interactive 3D platform teaching Operating Systems concepts with 10+ gamified modules. Integrated Three.js graphics engine for real-time 3D rendering supporting 50+ concurrent users.',
+    techStack: ['React.js', 'Three.js', 'TypeScript', 'Vite', 'TailwindCSS'],
+    githubUrl: 'https://github.com/Ayushi-hi/Os-Mon',
+    liveUrl: 'https://os-mon.vercel.app/'
   },
   {
     title: 'PawMatch', emoji: '🐾',
-    description: 'Full-stack pet adoption platform connecting users with NGO shelter animals. Designed relational schemas and REST endpoints for pet listings, user profiles and adoption request workflows.',
-    techStack: ['Java', 'Spring Boot', 'JavaScript', 'REST APIs', 'SQL'],
+    description: 'Full-stack pet adoption platform connecting users with NGO shelter animals. Built REST APIs for pet listings, user profiles, and adoption request workflows.',
+    techStack: ['HTML5', 'CSS3', 'JavaScript', 'Java', 'Spring Boot'],
     githubUrl: 'https://github.com/Ayushi-hi/PawMatch',
     liveUrl: 'https://pawmatch-txnh.onrender.com/'
   },
 ]
-
-/* Earlier projects, kept here in case you want to add them back into fallbackOthers:
-  { title: 'DERMIQUE', githubUrl: 'https://github.com/Ayushi-hi/dermique', liveUrl: 'https://dermique.vercel.app/' }
-  { title: 'VoteChain India', githubUrl: 'https://github.com/Ayushi-hi/Digital-Votechain-India', liveUrl: 'https://digital-votechain-india.vercel.app/' }
-  { title: 'OS-Mon Academy', githubUrl: 'https://github.com/Ayushi-hi/Os-Mon', liveUrl: 'https://os-mon.vercel.app/' }
-*/
 
 export default function Projects({ projects }) {
   const featured = projects.find(p => p.featured) || fallbackFeatured
@@ -64,11 +57,9 @@ export default function Projects({ projects }) {
             <a href={featured.githubUrl || '#'} target="_blank" className="btn btn-gold">
               <span>GitHub</span><span>↗</span>
             </a>
-            {featured.liveUrl && (
-              <a href={featured.liveUrl} target="_blank" className="btn btn-outline">
-                <span>Live Demo</span><span>↗</span>
-              </a>
-            )}
+            <a href={featured.liveUrl || '#'} target="_blank" className="btn btn-outline">
+              <span>Live Demo</span><span>↗</span>
+            </a>
           </div>
         </div>
         <div className="proj-featured-right">
@@ -87,9 +78,7 @@ export default function Projects({ projects }) {
             </div>
             <div style={{display:'flex',gap:'1rem',marginTop:'1rem'}}>
               <a href={p.githubUrl || '#'} target="_blank" style={{color:'var(--gold)',textDecoration:'none',fontSize:'0.85rem'}}>GitHub ↗</a>
-              {p.liveUrl && (
-                <a href={p.liveUrl} target="_blank" style={{color:'var(--cream)',textDecoration:'none',fontSize:'0.85rem'}}>Live Demo ↗</a>
-              )}
+              <a href={p.liveUrl || '#'} target="_blank" style={{color:'var(--cream)',textDecoration:'none',fontSize:'0.85rem'}}>Live Demo ↗</a>
             </div>
           </div>
         ))}
