@@ -1,4 +1,5 @@
 ﻿import { useEffect, useState, useRef } from 'react'
+import { initEffects } from './effects'
 import Cursor from './components/Cursor'
 import Toast from './components/Toast'
 import Nav from './components/Nav'
